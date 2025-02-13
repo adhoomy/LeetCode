@@ -8,6 +8,6 @@ class Solution(object):
                 return m
             if target < nums[m]:
                 r = m-1
-            if target >  nums[m]:
+            if target > nums[m]:
                 l = m+1
         return -1
